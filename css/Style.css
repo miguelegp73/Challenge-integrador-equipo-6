@@ -1,0 +1,98 @@
+/* body {
+  margin: 0;
+
+  flex-direction: column;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.8em;
+}
+
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 5fr 7fr 2fr;
+
+  align-content: space-evenly;
+
+  grid-template-areas:
+    "navbar navbar navbar "
+    "banner banner banner"
+    "main main main "
+    "footer footer footer";
+}
+
+.item-header {
+  display: grid;
+  grid-area: navbar;
+  background: #30343f;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item-banner {
+  grid-area: banner;
+  background-image: url("../assests/img/funkos-banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.item-main {
+  grid-area: main;
+  background-color: aqua;
+}
+
+.item-footer {
+  grid-area: footer;
+  background-color: blueviolet;
+} */
+
+/* ------  HEADER ------- */
+
+/* header {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.grid-container .navbar {
+  align-items: center;
+}
+
+ul.nav .nav-link {
+  color: #ffffff;
+}
+
+.logo {
+  margin: 20px;
+} */
+
+/* ------ BANNER ------- */
+
+/* .item-banner .texto {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item-banner .btn-custom {
+  background-color: white;
+  border: none;
+  color: #111111;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 15px;
+  width: 150px;
+} */

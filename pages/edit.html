@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <!--<link rel="stylesheet" href="./css/Style.css" />-->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    /> -->
+    <!--<link rel="stylesheet" href="./css/cssBootsrap/bootstrap.min.css" />  -->
+    <title>FUNKSHOP</title>
+  </head>
+  <body>
+    <!-- INICIO HEADER-->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <picture>
+            <a href="../index.html">
+              <img
+                src="../assests/logo/logo_light_horizontal.svg"
+                alt="logo-funkshop"
+              />
+            </a>
+          </picture>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="../pages/shop.html" class="nav-link">VER TIENDA</a>
+          </li>
+          <li>
+            <a href="../pages/admin.html" class="nav-link">ADMIN</a>
+          </li>
+          <li><a href="../pages/login.html" class="nav-link">SALIR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- FIN HEADER-->
+
+    <!-- INICIO MAIN-->
+    <main>
+      <section>
+        <h3>CREAR NUEVO ITEM</h3>
+        <form action="" method="">
+          <div>
+            <label for="categoria">Categoría:</label>
+            <select name="categoria" id="categoria">
+              <option value="STAR WARS">STAR WARS</option>
+              <option value="POKEMON">POKEMON</option>
+              <option value="HARRY POTTER">HARRY POTTER</option>
+            </select>
+            <label for="Licencia">Licencia:</label>
+            <select name="Licencia" id="Licencia">
+              <option value="STAR WARS">STAR WARS</option>
+              <option value="POKEMON">POKEMON</option>
+              <option value="HARRY POTTER">HARRY POTTER</option>
+            </select>
+          </div>
+          <div>
+            <label for="nombreProducto">Nombre del producto</label>
+            <input type="text" />
+          </div>
+          <div>
+            <textarea name="descripcion" id="" cols="80" rows="10">
+            Descripción del producto</textarea
+            >
+          </div>
+          <div>
+            <span for="sku">SKU:</span>
+            <input type="text" />
+
+            <span for="precio">Precio:</span>
+            <input type="text" />
+
+            <span for="stock">Stock:</span>
+            <input type="text" />
+          </div>
+          <div>
+            <span for="sku">Descuento:</span>
+            <input type="number" />
+            <label for="cuotas">Cuotas:</label>
+            <select name="cuotas" id="cuotas">
+              <option value="1">1 Cuota sin interés</option>
+              <option value="3">3 Cuotas sin interés</option>
+              <option value="6">6 Cuotas sin interés</option>
+            </select>
+          </div>
+          <div>
+            <label for="imagen">Imágenes</label>
+            <picture><input type="file" /></picture>
+          </div>
+          <picture>
+            <img src="../assests/img/pokemon/charmander-1.webp" alt="" />
+          </picture>
+          <picture>
+            <img src="../assests/img/pokemon/charmander-box.webp" alt="" />
+          </picture>
+          <div>
+            <span>
+              <button>Modificar Producto</button>
+            </span>
+          </div>
+        </form>
+      </section>
+    </main>
+    <!-- FIN MAIN-->
+
+    <!-- INICIO FOOTER-->
+    <footer>
+      <section>
+        <nav>
+          <ul>
+            <li><a href="../pages/shop.html">SHOP</a></li>
+            <li><a href="../pages/register.html">REGISTRARSE</a></li>
+            <li><a href="../pages/login.html">LOGIN</a></li>
+            <li><a href="../pages/contact.html">CONTACTO</a></li>
+          </ul>
+          <picture>
+            <img
+              src="../assests/logo/isotype.svg"
+              alt="Isotipo de la marca Funkoshop"
+            />
+          </picture>
+        </nav>
+      </section>
+    </footer>
+    <p>All rights reserved 2023 - Funkoshop &copy;</p>
+
+    <!-- FIN FOOTER-->
+  </body>
+</html>
